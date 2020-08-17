@@ -1,0 +1,23 @@
+{
+  "name": "BsafeDataGen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "custom-electron-titlebar": "^3.2.2-hotfix62",
+    "electron-rebuild": "^1.11.0",
+    "fast-csv": "^4.3.1",
+    "serialport": "^9.0.0",
+    "three": "^0.118.3"
+  },
+  "devDependencies": {
+    "electron": "^7.0.0"
+  }
+}
